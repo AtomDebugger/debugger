@@ -1,0 +1,30 @@
+{
+  "name": "debugger",
+  "main": "./lib/main",
+  "author": "philippvr",
+  "version": "0.0.0",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.0",
+    "season": "^5.2.0"
+  },
+  "package-deps": [
+    "debugger-ui-default"
+  ],
+
+  "consumedServices": {
+    "debugger-ui": {
+      "versions": {
+        "^0.1.0": "consumeView"
+      }
+    },
+    "debugger": {
+      "versions": {
+        "^0.1.0": "consumeDebugger"
+      }
+    }
+  }
+}
