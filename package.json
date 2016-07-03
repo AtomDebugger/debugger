@@ -9,12 +9,22 @@
   },
   "dependencies": {
     "atom-package-deps": "^4.0.0",
-    "season": "^5.2.0"
+    "season": "^5.2.0",
+    "underscore-plus": "^1.0.0"
+  },
+  "devDependencies": {
+    "flow-atom-api": "https://github.com/flow-atom/flow-atom-api.git"
   },
   "package-deps": [
     "debugger-ui-default"
   ],
-
+  "providedServices": {
+    "debugger-event-defs": {
+      "versions": {
+        "0.1.0": "provideEventDefs"
+      }
+    }
+  },
   "consumedServices": {
     "debugger-ui": {
       "versions": {

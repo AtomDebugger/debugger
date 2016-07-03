@@ -1,7 +1,21 @@
 [ignore]
+node_modules/**/.*
 
 [include]
 
 [libs]
+interface
+node_modules/flow-atom-api/sig/v1.7.4
+node_modules/flow-atom-api/node_modules/flow-json/sig
+node_modules/flow-atom-api/node_modules/flow-json-schema/sig
+node_modules/flow-atom-api/node_modules/flow-atom-event-kit/sig/v1.5.0
+node_modules/flow-atom-api/node_modules/flow-atom-first-mate/sig/v5.1.1
+node_modules/flow-atom-api/node_modules/flow-atom-keymap/sig/v6.3.2
+node_modules/flow-atom-api/node_modules/flow-atom-node/sig
+node_modules/flow-atom-api/node_modules/flow-atom-oniguruma/sig/v6.1.0
+node_modules/flow-atom-api/node_modules/flow-atom-pathwatcher/sig/v6.2.4
+node_modules/flow-atom-api/node_modules/flow-atom-text-buffer/sig/v8.5.0
+node_modules/flow-atom-api/node_modules/flow-electron-api/sig/v1.1.1
+node_modules/flow-atom-api/node_modules/iflow-jquery/index.js.flow
 
 [options]
