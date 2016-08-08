@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "description": "-- Work in Progress -- Debugger package for Atom",
   "keywords": ["debug", "debugger", "debugging"],
-  "repository": "https://github.com/steelbrain/linter-ui-default",
+  "repository": "https://github.com/AtomDebugger/debugger",
   "license": "MIT",
   "engines": {
     "atom": ">=1.4.0 <2.0.0"
