@@ -2,9 +2,13 @@
   "name": "debugger",
   "main": "./lib/index.js",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "-- Work in Progress -- Debugger package for Atom",
-  "keywords": ["debug", "debugger", "debugging"],
+  "keywords": [
+    "debug",
+    "debugger",
+    "debugging"
+  ],
   "repository": "https://github.com/AtomDebugger/debugger",
   "license": "MIT",
   "engines": {
@@ -21,9 +25,7 @@
     "eslint-config-steelbrain": "^1.0.4",
     "jasmine-fix": "^1.0.0"
   },
-  "providedServices": {
-
-  },
+  "providedServices": {},
   "consumedServices": {
     "busy-signal": {
       "versions": {
@@ -34,5 +36,5 @@
   "package-deps": [
     "busy-signal"
   ],
-  "configSchema": { }
+  "configSchema": {}
 }
