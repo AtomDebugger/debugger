@@ -1,0 +1,38 @@
+{
+  "name": "debugger",
+  "main": "./lib/index.js",
+  "private": true,
+  "version": "0.0.0",
+  "description": "-- Work in Progress -- Debugger package for Atom",
+  "keywords": ["debug", "debugger", "debugging"],
+  "repository": "https://github.com/steelbrain/linter-ui-default",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "scripts": {
+    "test": "apm test",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-steelbrain": "^1.0.4",
+    "jasmine-fix": "^1.0.0"
+  },
+  "providedServices": {
+
+  },
+  "consumedServices": {
+    "busy-signal": {
+      "versions": {
+        "1.0.0": "consumeSignal"
+      }
+    }
+  },
+  "package-deps": [
+    "busy-signal"
+  ],
+  "configSchema": { }
+}
