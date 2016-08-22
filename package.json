@@ -7,13 +7,22 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "scripts": {
+    "test": "(apm test) && (flow check | grep -q '0 errors') && (eslint . )",
+    "clean": "rm -rf lib",
+    "build": "npm run clean; babel src --out-dir lib",
+    "watch": "npm run clean; babel src --out-dir lib --watch"
+  },
   "dependencies": {
     "atom-package-deps": "^4.0.0",
     "season": "^5.2.0",
     "underscore-plus": "^1.0.0"
   },
   "devDependencies": {
-    "flow-atom-api": "https://github.com/flow-atom/flow-atom-api.git"
+    "eslint-config-steelbrain": "^1.0.4",
+    "flow-atom-api": "https://github.com/flow-atom/flow-atom-api.git",
+    "flow-bin": "^0.30.0",
+    "jasmine-fix": "^1.0.1"
   },
   "package-deps": [
     "debugger-ui-default"
