@@ -1,9 +1,9 @@
 [ignore]
-node_modules/**/.*
 
 [include]
 
 [libs]
+decls
 interface
 node_modules/flow-atom-api/sig/v1.7.4
 node_modules/flow-atom-api/node_modules/flow-json/sig
@@ -19,3 +19,4 @@ node_modules/flow-atom-api/node_modules/flow-electron-api/sig/v1.1.1
 node_modules/flow-atom-api/node_modules/iflow-jquery/index.js.flow
 
 [options]
+module.system=node
