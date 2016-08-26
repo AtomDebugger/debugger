@@ -1,12 +1,16 @@
-import { File } from 'sig/1.7.4/File'
-import { CompositeDisposable, Disposable, Emitter } from 'event-kit'
+/* @flow */
 
-declare module atom {
-
-  declare var exports: {
-    File: File,
-    CompositeDisposable: CompositeDisposable,
-    Disposable: Disposable,
-    Emitter: Emitter
-  };
+declare var atom: Object;
+declare module 'atom' {
+  declare var Point: any;
+  declare var Range: any;
+  declare var Panel: any;
+  declare var TextEditor: any;
+  declare var TextBuffer: any;
+  declare var BufferMarker: any;
+  declare var TextEditorGutter: any;
+  declare var TextEditorMarker: any;
+  declare var CompositeDisposable: any;
+  declare var Disposable: any;
+  declare var Emitter: any;
 }
