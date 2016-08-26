@@ -1,7 +1,7 @@
 {
   "name": "debugger",
   "main": "./lib/index",
-  "author": "philippvr",
+  "author": "AtomDebugger",
   "version": "0.0.0",
   "license": "MIT",
   "engines": {
