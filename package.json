@@ -25,7 +25,7 @@
     "debugger-ui-default"
   ],
   "providedServices": {
-    "debugger-event-defs": {
+    "debugger-event-definitions": {
       "versions": {
         "0.1.0": "provideEventDefs"
       }
