@@ -11,6 +11,10 @@
   "scripts": {
     "test": "(apm test) && (flow check | grep -q '0 errors') && (eslint . )"
   },
+  "keywords": [
+    "debugger"
+  ],
+  "description": "Base debugger with Cow Powers",
   "dependencies": {
     "atom-package-deps": "^4.0.0"
   },
