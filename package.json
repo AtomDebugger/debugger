@@ -36,7 +36,7 @@
   "consumedServices": {
     "debugger-ui": {
       "versions": {
-        "^1.0.0": "consumeView"
+        "^1.0.0": "consumeUI"
       }
     }
   }
