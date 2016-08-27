@@ -1,11 +1,14 @@
 {
   "name": "debugger",
-  "main": "./lib/main",
-  "author": "philippvr",
+  "main": "./lib/index",
+  "author": "AtomDebugger",
   "version": "0.0.0",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.9.0 <2.0.0"
+  },
+  "scripts": {
+    "test": "(apm test) && (flow check | grep -q '0 errors') && (eslint . )"
   },
   "dependencies": {
     "atom-package-deps": "^4.3.0",
@@ -13,27 +16,24 @@
     "underscore-plus": "^1.0.0"
   },
   "devDependencies": {
-    "flow-atom-api": "https://github.com/flow-atom/flow-atom-api.git"
+    "eslint-config-steelbrain": "^1.0.4",
+    "flow-bin": "^0.31.1",
+    "jasmine-fix": "^1.0.1"
   },
   "package-deps": [
     "debugger-ui-default"
   ],
   "providedServices": {
-    "debugger-event-defs": {
+    "debugger": {
       "versions": {
-        "0.1.0": "provideEventDefs"
+        "1.0.0": "provideDebuggerRegistry"
       }
     }
   },
   "consumedServices": {
     "debugger-ui": {
       "versions": {
-        "^0.1.0": "consumeView"
-      }
-    },
-    "debugger": {
-      "versions": {
-        "^0.1.0": "consumeDebugger"
+        "^1.0.0": "consumeView"
       }
     }
   }
