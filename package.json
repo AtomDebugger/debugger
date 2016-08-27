@@ -4,6 +4,7 @@
   "author": "AtomDebugger",
   "version": "0.0.0",
   "license": "MIT",
+  "private": true,
   "engines": {
     "atom": ">=1.9.0 <2.0.0"
   },
