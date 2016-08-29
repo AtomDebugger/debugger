@@ -8,10 +8,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "scripts": {
-    "test": "(apm test) && (flow check | grep -q '0 errors') && (eslint . )",
-    "clean": "rm -rf lib",
-    "build": "npm run clean; babel src --out-dir lib",
-    "watch": "npm run clean; babel src --out-dir lib --watch"
+    "test": "(apm test) && (flow check) && (eslint . )"
   },
   "dependencies": {
     "atom-package-deps": "^4.3.0",
