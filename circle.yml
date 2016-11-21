@@ -13,7 +13,7 @@ dependencies:
 
 test:
   override:
-    - npm test
+    - apm test
 
 machine:
   node:
