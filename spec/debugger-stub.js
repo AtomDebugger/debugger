@@ -25,6 +25,10 @@ export default class DebbugerStub {
     return this.emitter.on('breakpoint', callback)
   }
 
+  onTargetEvent(callback) {
+    return this.emitter.on('target', callback)
+  }
+
   /* For tests */
   emitSessionEvent(notification) {
     this.emitter.emit('session', notification)
