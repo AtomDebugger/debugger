@@ -18,7 +18,7 @@
   "devDependencies": {
     "@flow-atom/atom": "^1.8.0-rev.0",
     "eslint-config-steelbrain": "^1.0.4",
-    "flow-bin": "^0.30.0",
+    "flow-bin": "^0.37.3",
     "jasmine-fix": "^1.0.1"
   },
   "package-deps": [
