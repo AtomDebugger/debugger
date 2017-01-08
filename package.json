@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "atom-package-deps": "^4.3.0",
-    "season": "^5.2.0",
+    "season": "^5.4.0",
     "underscore-plus": "^1.0.0"
   },
   "devDependencies": {
